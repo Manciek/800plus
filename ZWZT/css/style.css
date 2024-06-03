@@ -31,12 +31,20 @@
     main {
         height: 23vw;
     }
-
     #logo {
         padding-inline: 0.6em;
-        font-size: 6.5vw;
+        font-size: 6.5vw;   
         word-spacing: 5px;
         letter-spacing: 3px;
+    }
+    .scrolled main{
+        height: 10vw;
+        #logo{
+            font-size: 3vw;
+            margin-right: 74%;
+            box-shadow: -4px 4px 6px 1px var(--color-shadow), 
+        3px -3px 9px 1px #bababa;
+        }
     }
 }
 /* PCs */
@@ -44,7 +52,6 @@
     main {
         height: 10vw;
     }
-
     #logo {
         font-size: 5vw;
         word-spacing: 10px;
@@ -59,6 +66,9 @@ body {
 }
 
 main {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +76,7 @@ main {
     margin: 0 auto;
     padding: 0;
     background-color: var(--bg-color);
+    transition: all 0.3s ease;
 }
 
 #logo {
@@ -74,4 +85,11 @@ main {
     box-shadow: -6px 6px 6px 2px var(--color-shadow), 
         5px -5px 9px 1px #bababa;
     border-radius: 10px;
+}
+
+#web_body {
+    height: 58em;
+    border: 1px ridge;
+    border-radius: 10px;
+    background-color: rgb(33 49 146 / 93%);
 }

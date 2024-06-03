@@ -85,6 +85,7 @@ main {
     box-shadow: -6px 6px 6px 2px var(--color-shadow), 
         5px -5px 9px 1px #bababa;
     border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 #web_body {

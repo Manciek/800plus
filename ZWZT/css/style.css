@@ -54,6 +54,7 @@
         height: 10vw;
         #logo{
             font-size: 3vw;
+            font-family: monospace;
             margin-right: 74%;
             box-shadow: -4px 4px 6px 1px var(--color-shadow), 
         3px -3px 9px 1px #bababa;
@@ -70,6 +71,7 @@
     }
     #logo {
         font-size: 5vw;
+        font-family: Englebert;
         word-spacing: 10px;
         letter-spacing: 7px;
         padding-inline: 1em;
@@ -97,7 +99,6 @@ main {
 #logo {
     margin: 0;
     text-align: center;
-    font-family: Englebert;
     box-shadow: -6px 6px 6px 2px var(--color-shadow), 5px -5px 9px 1px #bababa;
     border-radius: 10px;
     transition: all 0.3s ease

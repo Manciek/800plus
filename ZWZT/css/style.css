@@ -12,7 +12,9 @@
 
 @font-face {
     font-family: Englebert-Regular;
-    src: url(../fonts/Englebert/Englebert-Regular.ttf) format('truetype');
+    src:
+        local('Engelebert-Regular');
+        url(../fonts/Englebert/Englebert-Regular.ttf) format('truetype');
 }
 @media (prefers-color-scheme: light) {
     :root {

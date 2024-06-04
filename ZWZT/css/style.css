@@ -13,7 +13,7 @@
 @font-face {
     font-family: Englebert-Regular;
     src:
-        local('Engelebert-Regular');
+        local('Englebert-Regular');
         url(../fonts/Englebert/Englebert-Regular.ttf) format('truetype');
 }
 @media (prefers-color-scheme: light) {

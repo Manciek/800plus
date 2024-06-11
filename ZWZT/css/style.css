@@ -54,7 +54,7 @@
     .scrolled main{
         height: 10vw;
         #logo{
-            font-size: 3.3vw;
+            font-size: 3.1vw;
             margin-right: 68%;
             box-shadow: -4px 4px 6px 1px var(--color-shadow), 
         3px -3px 9px 1px #bababa;

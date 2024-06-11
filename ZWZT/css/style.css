@@ -55,7 +55,7 @@
         height: 10vw;
         #logo{
             font-size: 3.2vw;
-            margin-right: 64%;
+            margin-right: 56%;
             box-shadow: -4px 4px 6px 1px var(--color-shadow), 
         3px -3px 9px 1px #bababa;
         }

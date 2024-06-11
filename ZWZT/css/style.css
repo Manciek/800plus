@@ -55,7 +55,7 @@
         height: 10vw;
         #logo{
             font-size: 3.2vw;
-            margin-right: 56%;
+            margin-right: 60%;
             box-shadow: -4px 4px 6px 1px var(--color-shadow), 
         3px -3px 9px 1px #bababa;
         }
@@ -140,14 +140,14 @@ main {
 #wrapper a {
     border: 1px dotted white;
     width: 100%;
-    height: min(7vw, 2em);
+    height: min(6vw, 2.5em);
     border-radius: 2px;
     text-decoration: none;
     font-family: monospace;
     align-content: center;
     text-align: center;
     color: coral;
-    font-size: min(2vw, 2em);
+    font-size: min(2.7vw, 2em);
     background-color: rgb(62 37 210 / 60%);
 }
 .clicked #wrapper {

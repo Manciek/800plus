@@ -147,7 +147,7 @@ main {
     align-content: center;
     text-align: center;
     color: coral;
-    font-size: min(4vw, 2em);
+    font-size: min(3vw, 2em);
     background-color: rgb(62 37 210 / 60%);
 }
 .clicked #wrapper {

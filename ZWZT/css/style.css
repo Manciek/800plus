@@ -52,8 +52,8 @@
         #logo{
             font-size: 4vw;
             margin-right: 62%;
-            box-shadow: -4px 4px 6px 1px rgb(207, 207, 207), 
-                        3px -3px 9px 1px #3e3e3e;
+            box-shadow: -4px 4px 6px 1px #3e3e3e, 
+                        3px -3px 9px 1px rgb(207, 207, 207);
         }
         #menu{
             display:none;
@@ -97,8 +97,8 @@ main {
     margin: 0;
     text-align: center;
     font-style: italic;
-    box-shadow: -6px 6px 6px 2px rgb(207, 207, 207),
-                5px -5px 9px 1px #3e3e3e;
+    box-shadow: -6px 6px 6px 2px #3e3e3e,
+                5px -5px 9px 1px rgb(207, 207, 207);
     border-radius: 10px;
     transition: all 0.3s ease
 }
@@ -156,5 +156,5 @@ main {
 #web_body {
     height: 58em;
     border-radius: 10px;
-    background-color: rgb(6, 0, 92 / 76%);
+    background-color: rgb(6 0 92 / 76%);
 }

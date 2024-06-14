@@ -4,8 +4,6 @@
     --background-color-dark: rgb(20, 20, 20);
     --bg-color-light: rgb(128, 128, 128);
     --bg-color-dark: rgb(128, 128, 128);
-    --color-shadow-light: rgb(26, 26, 26);
-    --color-shadow-dark: rgb(101, 101, 101);
     --menu-image-light: url(../imgs/menu_black.svg);
     --menu-image-dark: url(../imgs/menu_white.svg);
 }

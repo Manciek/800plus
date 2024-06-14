@@ -148,6 +148,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    user-select: none;
 }
 .clicked #wrapper {
     display: flex;

@@ -23,7 +23,6 @@
     :root {
         --background-color: var(--background-color-light);
         --bg-color: var(--bg-color-light);
-        --color-shadow: var(--color-shadow-light);
         --menu-image: var(--menu-image-light);
     }
 }
@@ -32,7 +31,6 @@
     :root {
         --background-color: var(--background-color-dark);
         --bg-color: var(--bg-color-dark);
-        --color-shadow: var(--color-shadow-dark);
         --menu-image: var(--menu-image-dark);
     }
 }
@@ -56,8 +54,8 @@
         #logo{
             font-size: 4vw;
             margin-right: 62%;
-            box-shadow: -4px 4px 6px 1px var(--color-shadow), 
-        3px -3px 9px 1px #bababa;
+            box-shadow: -4px 4px 6px 1px rgb(207, 207, 207), 
+                        3px -3px 9px 1px #3e3e3e;
         }
         #menu{
             display:none;
@@ -101,7 +99,8 @@ main {
     margin: 0;
     text-align: center;
     font-style: italic;
-    box-shadow: -6px 6px 6px 2px var(--color-shadow), 5px -5px 9px 1px #bababa;
+    box-shadow: -6px 6px 6px 2px rgb(207, 207, 207),
+                5px -5px 9px 1px #3e3e3e;
     border-radius: 10px;
     transition: all 0.3s ease
 }
@@ -140,13 +139,13 @@ main {
 #wrapper a {
     border: 1px dotted white;
     width: 100%;
-    height: min(2.5em, 7vw);
+    height: min(2em, 7vw);
     border-radius: 2px;
     text-decoration: none;
     font-family: monospace;
     text-align: center;
     color: coral;
-    font-size: min(2.7vw, 2em);
+    font-size: min(4vw, 2em);
     background-color: rgb(62 37 210 / 60%);
     display: flex;
     justify-content: center;
@@ -159,5 +158,5 @@ main {
 #web_body {
     height: 58em;
     border-radius: 10px;
-    background-color: rgb(6 0 92 / 76%);
+    background-color: rgb(6, 0, 92 / 76%);
 }

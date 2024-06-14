@@ -1,4 +1,4 @@
-﻿:root {
+I'll﻿:root {
     color-scheme: light dark;
     --background-color-light: rgb(232, 232, 232);
     --background-color-dark: rgb(20, 20, 20);
@@ -144,11 +144,13 @@ main {
     border-radius: 2px;
     text-decoration: none;
     font-family: monospace;
-    align-content: center;
     text-align: center;
     color: coral;
     font-size: min(2.7vw, 2em);
     background-color: rgb(62 37 210 / 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .clicked #wrapper {
     display: flex;
